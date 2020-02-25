@@ -18,16 +18,15 @@ class AbstractItem(core_models.TimeStampedModel):
 
 class RoomType(AbstractItem):
 
-    """ RoomType Object Definition """
+    """ RoomType Model Definition """
 
     class Meta:
         verbose_name = "Room Type"
-        ordering = ["name"]
 
 
 class Amenity(AbstractItem):
 
-    """ Amenity Object Definition """
+    """ Amenity Model Definition """
 
     class Meta:
         verbose_name_plural = "Amenities"
